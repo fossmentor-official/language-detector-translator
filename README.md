@@ -59,7 +59,7 @@ language-detector-translator/
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/<your-username>/language-detector-translator.git
+   git clone https://github.com/fossmentor-official/language-detector-translator.git
    cd language-detector-translator
 
 2. **Create a virtual environment**
@@ -112,7 +112,7 @@ This project comes with a .devcontainer setup for VS Code.
  I will be happy to assist 
 # 
 ## want something improved or added?
-  > Fork the repo @ [GitHub](https://github.com/fossmentor-official/ai-news-summarizer)
+  > Fork the repo @ [GitHub](https://github.com/fossmentor-official/language-detector-translator)
 # 
 ## Regards,
  > [Fossmentor](https://fossmentor.com)
