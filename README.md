@@ -37,18 +37,17 @@ This app is fully containerized with a **Dev Container** setup, making it easy t
 
 ## 🏗️ Project Structure
 
-language-detector-translator/
-│
-├── .devcontainer/
-│ ├── devcontainer.json # VS Code Dev Container configuration
-│ ├── Dockerfile # Docker image setup for the environment
-│
-├── app/
-│ ├── main.py # Streamlit app (frontend logic)
-│ ├── translator_utils.py # Translation logic and fallbacks
-│ ├── requirements.txt # Python dependencies
-│
-├── README.md 
+language-detector-translator/<br/>
+│<br/>
+├── .devcontainer/<br/>
+│ ├── devcontainer.json # VS Code Dev Container configuration<br/>
+│ ├── Dockerfile # Docker image setup for the environment<br/>
+│<br/>
+├── app/<br/>
+│ ├── main.py # Streamlit app (frontend logic)<br/>
+│ ├── translator_utils.py # Translation logic and fallbacks<br/>
+│ ├── requirements.txt # Python dependencies<br/>
+│── README.md 
 
 
 ---
@@ -58,40 +57,43 @@ language-detector-translator/
 ### 🧩 Option 1: Run Locally (Without Docker)
 
 1. **Clone this repository**
-   ```bash
-   git clone https://github.com/fossmentor-official/language-detector-translator.git
-   cd language-detector-translator
+    ```bash
+    git clone https://github.com/fossmentor-official/language-detector-translator.git
+    cd language-detector-translator
+    ```
 
 2. **Create a virtual environment**
-  ```bash
-  python -m venv venv
-  source venv/bin/activate  # On Mac/Linux
-  venv\Scripts\activate     # On Windows
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Mac/Linux
+    venv\Scripts\activate     # On Windows
+    ```
 
 3. **Install dependencies**
-  ```bash
-  pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 4. **Run the Streamlit app**
-  ```bash
-  streamlit run app/main.py
+    ```bash
+    streamlit run app/main.py
+    ```
 
 ### 🧩 Option 2: Run Inside Dev Container (Recommended)
 
-This project comes with a .devcontainer setup for VS Code.
+  This project comes with a .devcontainer setup for VS Code.
+  1. Open the project folder in VS Code
+  2. Make sure you have:
+    * Docker Desktop running
+    * VS Code extension: Dev Containers
+  3. Press Ctrl + Shift + P → “Dev Containers: Reopen in Container”
+  4. Once built, your app will run inside a fully isolated environment.
+  5. Start the app:
+      ```bash
+      streamlit run app/main.py
+      ```
 
-1. Open the project folder in VS Code
-2. Make sure you have:
-  * Docker Desktop running
-  * VS Code extension: Dev Containers
-3. Press Ctrl + Shift + P → “Dev Containers: Reopen in Container”
-4. Once built, your app will run inside a fully isolated environment.
-5. Start the app:
-  ```bash
-  streamlit run app/main.py
-
---------------------------------
-
+---
 <!-- Actual text -->
 ## Find me on
 [![Facebook][1.2]][1] [![LinkedIn][2.2]][2] [![Instagram][3.2]][3]
